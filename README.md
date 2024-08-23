@@ -1,7 +1,5 @@
-# Project-One
-
-# Grazioso Salvare Animal Tracking Application
-
+# Project-One: Grazioso Salvare Animal Tracking Application
+ 
 # About the Project
 This repository contains the implementation of the Grazioso Salvare Animal Tracking Application, developed as part of my IT 145 course at Southern New Hampshire University. The project demonstrates the application of object-oriented programming principles in Java to build a software solution for tracking search-and-rescue animals.
 
