@@ -1,25 +1,28 @@
 # Project-One: Grazioso Salvare Animal Tracking Application
  
 # About the Project
-This repository contains the implementation of the Grazioso Salvare Animal Tracking Application, developed as part of my IT 145 course at Southern New Hampshire University. The project demonstrates the application of object-oriented programming principles in Java to build a software solution for tracking search-and-rescue animals.
+This repository contains the implementation of the Pet class, developed as part of my IT 145 course at Southern New Hampshire University. The project demonstrates the application of object-oriented programming principles in Java to model a simple pet management system for a local pet boarding and grooming business, Pet BAG.
 
 # Project Summary
-Grazioso Salvare, a leading search-and-rescue animal training company, required a software application to track the animals during their training phases and after they are placed into service. This project involved the development of a new Monkey class and the modification of the existing Driver class to manage both dogs and monkeys.
+The Pet Boarding and Grooming (Pet BAG) business required a software solution to replace their paper-based pet management processes. This project involved creating a Pet class to represent the essential details of the animals being boarded. The class was designed following object-oriented principles, with attributes and methods to manage pet information effectively.
 
 # Key Features
-- Monkey Class: Implements attributes specific to monkeys, such as species, tail length, and body length. Inherits from the RescueAnimal class.
-- Driver Class: Includes methods to intake new dogs and monkeys, reserve animals, and display lists of animals in service.
-- User Interface: A menu-driven interface that handles user input for managing animal data, ensuring robust input validation and error handling.
+- Pet Class:
+- - Attributes: Represents the type, name, age, and length of stay for a pet. It also includes attributes for managing available dog and cat spaces, as well as the amount due for the pet's stay.
+  - Constructors: Includes both a default constructor and a parameterized constructor to initialize pet details.
+  - Accessors and Mutators: Provides getter and setter methods for all attributes, ensuring encapsulation and ease of data manipulation.
 
 # Skills Developed
-- Object-Oriented Programming: Applied OOP concepts such as inheritance, encapsulation, and polymorphism to develop maintainable and scalable code.
-- Java Programming: Enhanced proficiency in Java through creating classes, managing data with ArrayLists, and implementing user-friendly interfaces.
-- Problem Solving: Developed solutions to real-world problems by integrating software design principles and best practices.
+- Object-Oriented Programming:
+- - Applied OOP concepts such as encapsulation and the use of constructors, accessors, and mutators.
+- Java Programming:
+- - Gained proficiency in Java through creating a well-structured class that models real-world objects.
+- Problem Solving:
+- - Developed solutions for managing pet data in a way that can be easily extended and maintained.
 
 # Files in This Repository
-- Monkey.java: Contains the implementation of the Monkey class, complete with attributes and methods specific to monkeys.
-- Driver.java: The main class that drives the application, including methods for managing animals and handling user interactions.
-- RescueAnimal.java & Dog.java: Base classes provided as part of the project setup to manage rescue animals.
+- Pet.java:
+- - Contains the implementation of the Pet class, complete with attributes to represent pet details, and methods to manage the pet's information.
 
 # Reflection
-This project provided valuable experience in applying coding standards and principles of object-oriented programming. The development process reinforced the importance of clear documentation, effective user input validation, and the application of best practices in software design. These skills will be instrumental in future software development tasks, both in academic and professional settings.
+This project provided valuable experience in applying coding standards and object-oriented programming principles in Java. The process reinforced the importance of clear documentation, encapsulation, and creating maintainable and scalable code. These skills are crucial for future software development tasks, both in academic and professional settings.
